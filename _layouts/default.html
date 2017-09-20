@@ -6,7 +6,7 @@
     <link rel="stylesheet" type="text/css" href="/css/main.css">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   </head>
-
+  
 <style>
 .tooltip {
     position: relative;
@@ -16,20 +16,22 @@
 
 .tooltip .tooltiptext {
     visibility: hidden;
-    width: 500px;
-    background-color: #333;
+    width: 600px;
+    background-color: #444;
     color: #fff;
     text-align: left;
     border-radius: 6px;
-    padding: 5px 0;
-
-    /* Position the tooltip */
+    padding: 10px 10px 10px 10px;
     position: absolute;
     z-index: 1;
+    bottom: 100%;
+    left: 50%;
+    margin-left: -60px;
 }
 
 .tooltip:hover .tooltiptext {
     visibility: visible;
+    opacity: 0.75;
 }
 </style>
   
