@@ -16,7 +16,7 @@ output:
         collapse: section
         scroll_highlight: yes
         before: |
-          <li><a href=""><b>Table of contents</b></a></li>
+          <li><a href=""><b>Contents</b></a></li>
       toolbar:
         position: fixed
       download: 
@@ -49,7 +49,7 @@ urlcolor: blue
 
 \newpage
 
-# Overview: AI and American public opinion
+# 1 Overview: AI and American public opinion
 
 <!--
 BZ: This section is probably the most important. I recommend that you spend a lot of time to make sure it sounds right to you.
@@ -82,7 +82,7 @@ We plan to regularly release similar reports based on our survey research in the
 
 <!-- AD assessment: the above looks pretty good! Let's have Markus try his hand at tightening it. -->
 
-## Key findings
+## 1.1 Key findings
 
 <!-- MA: Changed things around a bit above. Biggest changes:
 - Changing the last bit of the first paragraph. I made the previous two points into one.
@@ -173,7 +173,7 @@ I doubt these nuances matter. In future waves we should always randomly assign t
 -->
 
 
-## Reading notes
+## 1.2 Reading notes
 
 <!--
 BZ: Are there other reading notes that we need to include for the readers upfront?
@@ -797,9 +797,9 @@ d$q3new_treat_c <- relabel_var(old_var = d$q3new_treat, old_labels = 1:4,
 
 \FloatBarrier 
 
-# General attitudes toward AI
+# 2 General attitudes toward AI
 
-## More Americans support than oppose developing AI 
+## 2.1 More Americans support than oppose developing AI 
 
 We measured respondents' support for the further development of AI after providing them with basic information about the technology. Respondents were given the following definition of AI:
 
@@ -868,7 +868,7 @@ Americans express mixed support for the development of AI, although more support
 
 Our survey results reflect the cautious optimism that Americans express in other polls. In a recent survey, 51% of Americans indicated that they support continuing AI research while 31% opposed [@morningconsult2017]. Furthermore, 77% of Americans expressed that AI would have a "very positive" or "mostly positive" impact on how people work and live in the next 10 years while 23% thought that AI's impact would be "very negative" or "mostly negative" [@negallup2018]. 
 
-## Gender, education, income, and experience with tech predict support for developing AI
+## 2.2 Gender, education, income, and experience with tech predict support for developing AI
 <!--
 BZ: I added levels fo education into the regression model and it changed results a bit. I did some literature review looking into how education is correlated with support for AI.
 
@@ -1163,7 +1163,7 @@ ggplot(data = dev_md[dev_md$variables != "(Intercept)",], aes(x = variables, y =
 
 ```
 
-## An overwhelming majority of Americans think that AI and robots should be carefully managed
+## 2.3 An overwhelming majority of Americans think that AI and robots should be carefully managed
 
 <!-- 
 BZ: I think this section is pretty solid.
@@ -1376,7 +1376,7 @@ ggplot(data = euro_com[euro_com$stacked, ], aes(x = Country, y = value /
 
 ```
 
-## Harmful consequences of AI in context of other global risks 
+## 2.4 Harmful consequences of AI in context of other global risks 
 
 <!-- 
 BZ: I moved this subsection here instead of at the end of the report because I think the results are important enough to not bury it. I added the comparison with the WEF expert survey results. I left some comments below regarding the interpretation of the AI results; I think your editorial recommendations might be over-interpreting the results. 
@@ -1554,7 +1554,7 @@ ggplot() +
        caption = "Source: Governance of AI Program")
 ```
 
-## Americans' understanding of key technology terms
+## 2.5 Americans' understanding of key technology terms
 
 <!--
 BZ: I added information that explains the non-response is correlated with respondent inattention. I also did F-tests to show that responses are different for the terms within each technological application. The results of the analysis are found in Appendix C.
@@ -1681,9 +1681,9 @@ ggplot(whatsai_d) +
 
 \newpage
 
-# Public opinion on AI governance
+# 3 Public opinion on AI governance
 
-## Among AI governance challenges, Americans prioritize data privacy and preventing AI-enhanced cyber attacks, surveillance, and digital manipulation. 
+## 3.1 Among AI governance challenges, Americans prioritize data privacy and preventing AI-enhanced cyber attacks, surveillance, and digital manipulation. 
 
 <!-- 
 BZ: I think this section is solid -- maybe 95% there. The literature review section could be cut because I'm not sure it's 100% relevant to the results.
@@ -1981,7 +1981,7 @@ ggplot() +
        caption = "Source: Governance of AI Program")
 ```
 
-## Less concern about AI governance challenges is expressed by Americans who are younger, who have CS or engineering degress
+## 3.2 Less concern about AI governance challenges is expressed by Americans who are younger, who have CS or engineering degress
 
 <!--
 BZ: I think this section is pretty solid. 
@@ -2077,7 +2077,7 @@ ggplot(heat_map_res, aes(x = gov_challenge, y = characteristic, fill = p_importa
 
 ```
 
-## Americans place the most trust in the U.S. military and universities to build AI; trust tech companies and non-governmental organizations more than the government to manage the technology 
+## 3.3 Americans place the most trust in the U.S. military and universities to build AI; trust tech companies and non-governmental organizations more than the government to manage the technology 
 
 <!--
 BZ: I added more literature review. 
@@ -2358,13 +2358,13 @@ trust_table$manage_ai <- gsub("Mean: ", "", trust_table$manage_ai)
 
 \newpage
 
-# AI policy and U.S.-China relations
+# 4 AI policy and U.S.-China relations
 
 <!--
 BZ: I think we need to decide whether we would like to include all or some of the information from the China section. 
 -->
 
-## Americans underestimate the U.S. and China's AI research and development 
+## 4.1 Americans underestimate the U.S. and China's AI research and development 
 
 <!--
 BZ: I think this section is 85% there. This is a tricky topic to write about so I try to contextualize the results by providing background information. We should emphasize this is probably an ignorant perception on the part of the American public. 
@@ -2488,7 +2488,7 @@ ggplot() +
        caption = "Source: Governance of AI Program")
 ```
 
-## Communicating the dangers of a U.S.-China arms race requires explaining policy trade-offs 
+## 4.2 Communicating the dangers of a U.S.-China arms race requires explaining policy trade-offs 
 
 <!--
 BZ: I think this subsection is about 85% there. 
@@ -2767,7 +2767,7 @@ ggplot(data = ar_diff_res, aes(x = exp_group_l, y = num,
 
 ```
 
-## Americans see the potential for U.S.-China cooperation on some AI governance challenges
+## 4.3 Americans see the potential for U.S.-China cooperation on some AI governance challenges
 
 <!--
 BZ: I think this subsection is pretty solid; about 90% there. I could pass it along to Jeff to see if there are other things I could cite. 
@@ -2833,7 +2833,7 @@ ggplot(data = china_cd_num_value, aes(x = outcome, y = num,
 
 \newpage
 
-# Trend across time: attitudes toward workplace automation
+# 5 Trend across time: attitudes toward workplace automation
 
 <!--
 BZ: I think this section is pretty solid -- about 95% there.  
@@ -2841,7 +2841,7 @@ BZ: I think this section is pretty solid -- about 95% there.
 
 Survey questions that measure Americans' perceptions of workplace automation have existed since the 1950s. Our research seeks to track changes in these attitudes across time by connecting survey data from the past with original, contemporary survey data. 
 
-## Americans do not think that labor market disruptions will increase with time
+## 5.1 Americans do not think that labor market disruptions will increase with time
 
 American government agencies, think tanks, and media organizations began conducting surveys to study public opinion about technological unemployment during the 1980s when unemployment was relatively high. Between 1983 and 2003, the U.S. National Science Foundation (NSF) conducted eight surveys that asked respondents the following:
 
@@ -2916,7 +2916,7 @@ d$q15_treat_clean <- factor(d$q15_treat_clean, levels = time_exp)
 
 ```
 
-## Extending the historical time trend
+## 5.2 Extending the historical time trend
 
 The percentage of Americans today who disagree with the statement is on par with historical levels. Nevertheless, the percentage who agree with the statement has decreased by 12 percentage points since 2003 while the percentage who responded "don't know" has increased by 18 percentage points since 2003. 
 
@@ -2995,13 +2995,13 @@ ggplot() +
 
 \newpage
 
-# High-level machine intelligence
+# 6 High-level machine intelligence
 
 <!--
 BZ: Do you think we should write a brief paragraph here about high-level machine intelligence so the average reader can understand what we are talking about? 
 -->
 
-## The public think high-level machine intelligence will arrive sooner than AI experts predict {#arrivesooner}
+## 6.1 The public think high-level machine intelligence will arrive sooner than AI experts predict {#arrivesooner}
 
 <!--
 BZ: This subsection is pretty solid -- about 95% there. Could you check to make sure that the language in the main text is not too technical for the average reader to understand? 
@@ -3305,7 +3305,7 @@ rm("curves")
 rm("curve.matrix.cs")
 ```
 
-## Americans express mixed support for developing high-level machine intelligence
+## 6.2 Americans express mixed support for developing high-level machine intelligence
 
 <!--
 BZ: I think this subsection is pretty solider -- about 95% there.
@@ -3415,7 +3415,7 @@ support_diff <- lm(value ~ variable + scale(Q17_missing) +
 rm("support_d")
 ```
 
-## Men, partisans, high-income Americans, and those with tech experience express greater support for high-level machine intelligence
+## 6.3 Men, partisans, high-income Americans, and those with tech experience express greater support for high-level machine intelligence
 
 <!--
 BZ: I think this section is 90% there. One thing that I cannot explain is why partisans express higher support for HLMI. 
@@ -3602,7 +3602,7 @@ ggplot(data = dev_md[dev_md$variables != "(Intercept)",],
 
 ```
 
-## The public expects high-level machine intelligence to be more harmful than good
+## 6.4 The public expects high-level machine intelligence to be more harmful than good
 
 <!-- 
 BZ: My assessment is this subsection is pretty solid -- 95% there. I added results from another analysis where I took the expected value of the experts' responses so it's comparable to the public's responses. 
