@@ -5,6 +5,7 @@ date: "November 2018"
 site: bookdown::bookdown_site
 output:
   bookdown::gitbook:
+    url: "http://baobaofzhang.github.io/report/"
     number_sections: no
     fig_caption: yes
     config:
