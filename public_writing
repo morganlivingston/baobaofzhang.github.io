@@ -1,20 +1,20 @@
 ---
 layout: default
-title: Baobao Zhang | Research
+title: Baobao Zhang | Public Engagement
 ---
 
 		<div class="blurb">
 			<h1>Research</h1>
 
-      <p>I use quantiative social science methods to study trust in digital technology and the governance of artificial intelligence (AI). Currently, I work on the following topics: (1) public and elite opinion toward AI, (2) how the American welfare state could adapt to the increasing automation of labor, and (3) attitudes toward Covid-19 surveillance technology. I also have a research stream focused on improving survey methodology. Though rooted in political science, my work converses with a wide range of disciplines, including economics, computer science, and experimental psychology.</p>
+      <p>As a scholar at the intersection of political science and public policy, I write reports and op-ed for non-academic audiences. Furthermoore, I often communicate my research with the media.</p>
 			
-			<h2>Publications</h2>
-
-			<p>1. <b>Baobao Zhang</b> and Matto Mildenberger, 2020. "<a href = "https://doi.org/10.1371/journal.pone.0230961">Scientists' Political Behaviors Are Not Driven by Individual-level Government Benefits</a>." <i>PLOS One</i>, 15(5):e0230961. <a href = "https://doi.org/10.7910/DVN/HVKKHL">Replication Files</a></p>
+			<h2>Technical Reports</h2>
+			<p>1. <b>Baobao Zhang</b> and Allan Dafoe. "<a href = "https://governanceai.github.io/US-Public-Opinion-Report-Jan-2019/">Artificial Intelligence: American Attitudes and Trends</a>." Oxford, UK: Center for the
+Governance of AI, Future of Humanity Institute, University of Oxford, 2019. <a href = "https://doi.org/10.7910/DVN/SGFRYA">Replication Files</a></p>
 
 <button class="collapsible">Abstract</button>
 <div class="content">
-  <p>Is it appropriate for scientists to engage in political advocacy? Some political critics of scientists argue that scientists have become partisan political actors with self-serving financial agendas. However, most scientists strongly reject this view. While social scientists have explored the effects of science politicization on public trust in science, little empirical work directly examines the drivers of scientists’ interest in and willingness to engage in political advocacy. Using a natural experiment involving the U.S. National Science Foundation Graduate Research Fellowship (NSF-GRF), we causally estimate for the first time whether scientists who have received federal science funding are more likely to engage in both science-related and non-science-related political behaviors. Comparing otherwise similar individuals who received or did not receive NSF support, we find that scientists’ preferences for political advocacy are not shaped by receiving government benefits. Government funding did not impact scientists’ support of the 2017 March for Science nor did it shape the likelihood that scientists donated to either Republican or Democratic political groups. Our results offer empirical evidence that scientists’ political behaviors are not motivated by self-serving financial agendas. They also highlight the limited capacity of even generous government support programs to increase civic participation by their beneficiaries.</p>
+  <p>This report presents a broad look at the American public’s attitudes toward artificial intelligence (AI) and AI governance, based on findings from a nationally representative survey of 2,000 American adults. As the study of the public opinion toward AI is relatively new, we aimed for breadth over depth, with our questions touching on: workplace automation; attitudes regarding international cooperation; the public’s trust in various actors to develop and regulate AI; views about the importance and likely impact of different AI governance challenges; and historical and cross-national trends in public opinion regarding AI. Our results provide preliminary insights into the character of US public opinion regarding AI.</p>
 </div>
 
 <p>2. <b>Baobao Zhang</b>, Matto Mildenberger, Peter D. Howe, Jennifer Marlon, Seth Rosenthal, Anthony Leiserowitz, 2018. "<a href = "https://doi.org/10.1017/psrm.2018.49">Quota Sampling Using Facebook Advertisements</a>," forthcoming at <i>Political Science Research and Methods</i>. <a href="https://doi.org/10.7910/DVN/XTXS4P">Replication Files</a></p>
