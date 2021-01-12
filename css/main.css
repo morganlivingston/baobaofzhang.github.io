@@ -1,6 +1,6 @@
 body { margin: 60px auto; width: 70%; }
 
-a { text-decoration: none; color: #6F6F6F; }
+a { text-decoration: none; color: #1a44b7; }
 a:hover { text-decoration: underline; }
 
 p, ul { font-size: 1em; line-height: 1.25em; color: #333; }
@@ -29,7 +29,7 @@ footer { border-top: 1px solid #d5d5d5; font-size: .8em; }
 .video-responsive iframe{
     left:0;
     top:0;
-    height:auto;
+    height:60%;
     width:60%;
     position:absolute;
 }
